@@ -11,6 +11,6 @@ class GaussianRational:
         """Subtracts two numbers.aaa"""
         return GaussianRational(self.x-right.x, self.y-right.y)
     def __crazy__(self, crazy):
-        return 'I'm crazy'
+        return 'The crazy function'
     def __mul__(self, right):
         return GaussianRational(self.x*right.x, self.y*right.y)
